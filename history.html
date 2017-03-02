@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles/main.min.css">
+    <script src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.sticky.js"></script>
+    <script type="text/javascript" src="scripts/mathHeight.js"></script>
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="vendor/steps/steps.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body>
+    
+<header>
+	<div class="container clearfix">
+		<a href="/" class="logo"></a> 
+		<ul class="menu">
+			<li><a href="/news.html">Новости</a></li>
+			<li><a href="/actual.html">Россия</a></li>
+			<li><a href="/actual.html">Мир</a></li>
+			<li><a href="/history.html">Insta stories</a></li>
+			<li><a href="/tranlations.html">Трансляции</a></li>
+			<li><a href="/tests.html">Тесты</a></li>
+			<li class="tablet-hidden animate">
+				<a href="#" class="ico_pen">
+					<span class="hidden-tablet-wide">Отправить свою статью</span>
+					<span class="show-tablet-wide">Отправить статью</span>
+				</a>
+			</li>
+			<li class="animate"><a href="/login.html" class="ico_user"><span>Вход</span></a></li>
+			<li>
+				<a href="#" class="ico_search">
+					<span>Поиск</span>
+				</a>
+				<form>
+					<input type="text" placeholder="Поиск">
+				</form>
+			</li>
+		</ul>
+		<a href="#" class="m_menu"></a>
+	</div>
+</header>
+<div id="mobile_menu">
+	<div class="container">
+		<ul style="display:none">
+			<li><a href="/news.html">Новости</a></li>
+			<li><a href="/actual.html">Россия</a></li>
+			<li><a href="/actual.html">Мир</a></li>
+			<li><a href="/history.html">Insta stories</a></li>
+			<li><a href="/tranlations.html">Трансляции</a></li>
+			<li><a href="/tests.html">Тесты</a></li>
+			<li><a href="#" class="ico_pen">Отправить свою статью</a></li>
+			<li class="search_block">
+				<a href="#" class="ico_search"><span>Поиск</span></a>
+				<form>
+					<input type="text" placeholder="Поиск">
+				</form>
+			</li>
+			<li><a href="/login.html" class="ico_user">Вход</a></li>
+		</ul>
+	</div>
+</div>
+    <div id="content" class="history">
+        <div class="container">
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="#">Баклажан.ру</a></li>
+                    <li><a href="#">Insta stories</a></li>
+                    <li><span>Insta stories</span></li>
+                </ul>
+            </div>
+            <!-- banner -->
+            <div class="block_banner clearfix">
+                <a href="#">
+                    <img src="./images/banner_3.png" class="hidden-mobile">
+                    <img src="./images/banner_m_3.png" class="show-mobile">
+                    <div class="shadow"></div>
+                </a>
+            </div>
+            <!-- //banner -->
+            <h1>Insta stories </h1>
+            <!-- best_today -->
+            <div class="news_three_col best_today content_list clearfix">                
+                <div class="title_block mini clearfix">
+                    Лучшее за сегодня
+                    <a href="#" class="title_block_link hidden-mobile"><span>Смотреть все Insta stories</span></a>
+                </div>
+                <div class="slide_items">
+                <!-- start foreach -->
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_24.png">
+                        <div class="shadow"></div> 
+                        <div class="play"></div> 
+                        <div class="share">
+                            Поделиться:
+                            <a href="#"><img src="./images/ico_vk@2.png"></a>
+                            <a href="#"><img src="./images/ico_fb@2.png"></a>
+                            <a href="#"><img src="./images/ico_tw@2.png"></a>
+                            <a href="#"><img src="./images/ico_od@2.png"></a>
+                        </div>
+                    </a>
+                    <div class="title">Егор Крид <span>Только что</span></div>
+                </div>
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_25.png">
+                        <div class="shadow"></div> 
+                        <div class="play"></div> 
+                        <div class="share">
+                            Поделиться:
+                            <a href="#"><img src="./images/ico_vk@2.png"></a>
+                            <a href="#"><img src="./images/ico_fb@2.png"></a>
+                            <a href="#"><img src="./images/ico_tw@2.png"></a>
+                            <a href="#"><img src="./images/ico_od@2.png"></a>
+                        </div>
+                    </a>
+                    <div class="title">Тимати <span>1 минуту назад</span></div>
+                </div>
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_26.png">
+                        <div class="shadow"></div> 
+                        <div class="play"></div> 
+                        <div class="share">
+                            Поделиться:
+                            <a href="#"><img src="./images/ico_vk@2.png"></a>
+                            <a href="#"><img src="./images/ico_fb@2.png"></a>
+                            <a href="#"><img src="./images/ico_tw@2.png"></a>
+                            <a href="#"><img src="./images/ico_od@2.png"></a>
+                        </div>
+                    </a>
+                    <div class="title">Клава кока <span>10 минуту назад</span></div>
+                </div>
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_27.png">
+                        <div class="shadow"></div> 
+                        <div class="play"></div> 
+                        <div class="share">
+                            Поделиться:
+                            <a href="#"><img src="./images/ico_vk@2.png"></a>
+                            <a href="#"><img src="./images/ico_fb@2.png"></a>
+                            <a href="#"><img src="./images/ico_tw@2.png"></a>
+                            <a href="#"><img src="./images/ico_od@2.png"></a>
+                        </div>
+                    </a>
+                    <div class="title">МОТ <span>10 минуту назад</span></div>
+                </div>
+                
+                <!-- end foreach -->
+                </div>
+                <div class="show-mobile show_more">
+                    <a href="#" class="title_block_link"><span>Смотреть все story за сегодня</span></a>
+                </div>
+            </div>
+            <!-- //best_today -->
+            <!-- stars story -->
+            <div class="stars_story content_list clearfix hidden-mobile">
+                <div class="title_block mini clearfix">
+                    Звездные story
+                    <a href="#" class="title_block_link"><span>Смотреть всех звездные подборки</span></a>
+                </div>
+                <!-- start foreach -->
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_11.png">
+                        <div class="shadow"></div> 
+                    </a>
+                    <a href="#" class="name">Егор Крид</a>
+                    <div class="story_count">5 историй</div>                    
+                </div>
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_12.png">
+                        <div class="shadow"></div> 
+                    </a>
+                    <a href="#" class="name">Тимати</a>
+                    <div class="story_count">5 историй</div>                    
+                </div>
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_13.png">
+                        <div class="shadow"></div> 
+                    </a>
+                    <a href="#" class="name">Клава Коа</a>
+                    <div class="story_count">5 историй</div>                    
+                </div>
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_14.png">
+                        <div class="shadow"></div> 
+                    </a>
+                    <a href="#" class="name">МОТ</a>
+                    <div class="story_count">5 историй</div>                    
+                </div>
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_15.png">
+                        <div class="shadow"></div> 
+                    </a>
+                    <a href="#" class="name">Егор Крид</a>
+                    <div class="story_count">5 историй</div>                    
+                </div>
+                <div class="item">
+                    <a href="#" class="img">
+                        <img src="./images/news_16.png">
+                        <div class="shadow"></div> 
+                    </a>
+                    <a href="#" class="name">Егор Крид</a>
+                    <div class="story_count">5 историй</div>                    
+                </div>
+            </div>
+            <!-- stars story -->
+
+
+            <!-- Insta stories  4 col -->
+            <div class="news_three_col insta_story content_list clearfix">
+                <div class="title_block clearfix">
+                    Insta stories 
+                    <a href="#" class="title_block_link hidden-mobile"><span>Смотреть все insta story</span></a>
+                </div>
+                <div class="slide_items clearfix">
+                    <!-- start foreach -->
+                    <div class="item">
+                        <a href="#" class="img">
+                            <div class="img_block"> 
+                                <img class="big" src="./images/news_7.png">
+                            </div>
+                            <div class="images">
+                                <img src="./images/news_23.jpg">
+                                <img src="./images/news_24.jpg">
+                                <img src="./images/news_25.jpg">
+                                <img src="./images/news_26.jpg">
+                                <img src="./images/news_27.jpg">
+                                <img src="./images/news_23.jpg">
+                                <img src="./images/news_24.jpg">
+                            </div>
+                        </a>
+                        <a href="#" class="title">12 Января<span>44 истории</span></a>
+                        <div class="text">Крид передал привет всем своим поклонникам, Бузова учиться чистить ананас, Кличко забыл свое имя ...</div>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="img">
+                            <div class="img_block"> 
+                                <img class="big" src="./images/news_7.png">
+                            </div>
+                            <div class="images">
+                                <img src="./images/news_25.jpg">
+                                <img src="./images/news_26.jpg">
+                                <img src="./images/news_23.jpg">
+                                <img src="./images/news_23.jpg">
+                                <img src="./images/news_24.jpg">
+                                <img src="./images/news_27.jpg">
+                                <img src="./images/news_24.jpg">
+                            </div>
+                        </a>
+                        <a href="#" class="title">12 Января<span>44 истории</span></a>
+                        <div class="text">Крид передал привет всем своим поклонникам, Бузова учиться чистить ананас, Кличко забыл свое имя ...</div>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="img">
+                            <div class="img_block"> 
+                                <img class="big" src="./images/news_7.png">
+                            </div>
+                            <div class="images">
+                                <img src="./images/news_23.jpg">
+                                <img src="./images/news_27.jpg">
+                                <img src="./images/news_23.jpg">
+                                <img src="./images/news_24.jpg">
+                                <img src="./images/news_26.jpg">
+                                <img src="./images/news_25.jpg">
+                                <img src="./images/news_24.jpg">
+                            </div>
+                        </a>
+                        <a href="#" class="title">12 Января<span>44 истории</span></a>
+                        <div class="text">Крид передал привет всем своим поклонникам, Бузова учиться чистить ананас, Кличко забыл свое имя ...</div>
+                    </div>  
+                    <div class="item">
+                        <a href="#" class="img">
+                            <div class="img_block"> 
+                                <img class="big" src="./images/news_7.png">
+                            </div>
+                            <div class="images">
+                                <img src="./images/news_23.jpg">
+                                <img src="./images/news_24.jpg">
+                                <img src="./images/news_26.jpg">
+                                <img src="./images/news_24.jpg">
+                                <img src="./images/news_27.jpg">
+                                <img src="./images/news_23.jpg">
+                                <img src="./images/news_25.jpg">
+                            </div>
+                        </a>
+                        <a href="#" class="title">12 Января<span>44 истории</span></a>
+                        <div class="text">Крид передал привет всем своим поклонникам, Бузова учиться чистить ананас, Кличко забыл свое имя ...</div>
+                    </div>              
+                    <!-- end foreach -->
+                </div>
+                <div class="show-mobile show_more">
+                    <a href="#" class="title_block_link"><span>Смотреть все insta story</span></a>
+                </div>
+            </div>
+            <!-- //Insta stories  4 col -->
+        </div>
+    </div>
+    
+<footer>
+	<div class="line line_1">
+		<div class="container">
+			<span class="hidden-tablet">© 2016 Baklajan.com. Все права защищены</span>
+			<ul class="f_menu">
+				<li><a href="#">Реклама</a></li>
+				<li><a href="#">Правила и Условия</a></li>
+				<li><a href="#">Конфиденциальность</a></li>
+				<li><a href="#">Предложить новость</a></li>
+				<li><a href="#">DMCA Removal</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="line line_2">
+		<div class="container clearfix">
+			<div class="col col_1">
+				<p><b>Заметили ошибку?</b><br/>Выделите ее и нажмите CTRL+Enter</p>
+			</div>
+			<div class="col col_2 hidden-tablet">
+				<a href="#" class="flogo">
+					<img src="./images/f_logo.png">
+				</a>
+			</div>
+			<div class="col col_3">
+				<p><b>Любое использование материалов допускается только с согласия редакции.</b><br/>Свидетельство о регистрации ЭЛ № ФС 77 – 67553 Выдано Роскомнадзором 10 ноября 2016 года.<br/>С мая 2009 года по ноябрь 2016 года. 16+</p>
+			</div>
+		</div>
+	</div>
+	<div class="show-table">
+		<p>© 2016 Baklajan.com. Все права защищены</p>
+	</div>
+</footer>
+</body>
+</html> 
