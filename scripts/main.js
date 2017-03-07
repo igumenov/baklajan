@@ -33,10 +33,10 @@ $(document).ready(function() {
         $('#mobile_menu').toggle()
         $('#mobile_menu ul').slideToggle();
         if($('#mobile_menu').is(':hidden')){
-            $('html, body').css('overflow', 'auto');
-            $('html, body').css('overflow-x', 'hidden');
+            // $('html, body').css('overflow', 'auto');
+            // $('html, body').css('overflow-x', 'hidden');
         }else{
-            $('html, body').css('overflow', 'hidden');
+            // $('html, body').css('overflow', 'hidden'); 
         }
     });
 
